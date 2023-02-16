@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="019bb251-6ac2-4bc1-b124-0d95b9765b2e" name="Changes" comment="PSQL HW-1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/EmployeeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/impl/EmployeeDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/ConnectionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2765eebe-ccaa-4ce2-a436-835341ab0a30/storage_v2/_src_/database/skypro.7NVZyg/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2765eebe-ccaa-4ce2-a436-835341ab0a30/storage_v2/_src_/database/skypro.7NVZyg/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+    <list default="true" id="019bb251-6ac2-4bc1-b124-0d95b9765b2e" name="Changes" comment="PSQL HW-2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676382972786</updated>
       <workItem from="1676382975099" duration="11155000" />
-      <workItem from="1676460357395" duration="35093000" />
+      <workItem from="1676460357395" duration="36070000" />
     </task>
     <task id="LOCAL-00001" summary="Have begun">
       <created>1676384921265</created>
@@ -110,7 +103,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676393943114</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="PSQL HW-2">
+      <created>1676554599541</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676554599541</updated>
+    </task>
+    <task id="LOCAL-00005" summary="PSQL HW-2">
+      <created>1676554654115</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676554654115</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Have begun" />
     <MESSAGE value="PSQL HW-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="PSQL HW-1" />
+    <MESSAGE value="PSQL HW-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="PSQL HW-2" />
   </component>
 </project>
