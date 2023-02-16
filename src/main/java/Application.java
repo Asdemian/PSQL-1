@@ -23,7 +23,6 @@ public class Application {
 
         EmployeeDao employeeDao4 = new EmployeeDaoImpl();
         employeeDao4.updateById("Vitiya", "Firstin", "M", 30, 5, 15);
-
     }
 }
 
