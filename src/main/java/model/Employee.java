@@ -1,26 +1,29 @@
 package model;
 
-public class Employee {
-    private int id;
-    private String first_name;
-    private String last_name;
-    private String gender;
-    private int age;
-    private int city_id;
 
-    private String city_name;
+import javax.persistence.*;
+import java.util.Objects;
+
+@Entity
+@Table(name = "employee")
+public class Employee {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    private int id;
+    @Column(name = "first_name")
+    private String first_name;
+    @Column(name = "last_name")
+    private String last_name;
+    @Column(name = "gender")
+    private String gender;
+    @Column(name = "age")
+    private int age;
+    @Column(name = "city_id")
+    private int city_id;
 
 
     public Employee() {
-    }
-
-    public Employee(int id, String first_name, String last_name, String gender, int age, String city_name) {
-        this.id = id;
-        this.first_name = first_name;
-        this.last_name = last_name;
-        this.gender = gender;
-        this.age = age;
-        this.city_name = city_name;
     }
 
     public Employee(int id, String first_name, String last_name, String gender, int age, int city_id) {
@@ -88,24 +91,16 @@ public class Employee {
         this.city_id = city_id;
     }
 
-    public String getCity_name() {
-        return city_name;
-    }
-
-    public void setCity_name(String city_name) {
-        this.city_name = city_name;
-    }
-
     @Override
     public String toString() {
         return String.format(
-                "id: %d, Имя: %s, Фамилие: %s, пол: %s, годиков: %d, %s",
+                "id: %d, Имя: %s, Фамилие: %s, пол: %s, годиков: %d, %d",
                 id,
                 first_name,
                 last_name,
                 gender,
                 age,
-                city_name
+                city_id
         );
     }
 }

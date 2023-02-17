@@ -1,28 +1,34 @@
 import dao.EmployeeDao;
 import dao.impl.EmployeeDaoImpl;
-import jdbc.ConnectionManager;
 import model.Employee;
 
+import java.awt.datatransfer.FlavorListener;
 import java.sql.*;
+import java.util.List;
 
 public class Application {
 
     public static void main(String[] args) throws SQLException {
 
         EmployeeDao employeeDao = new EmployeeDaoImpl();
-        employeeDao.readById(10);
+        Employee employee = new Employee(5, "Дарья", "Российская", "Ж", 27, 4);
+        employeeDao.create(employee);
+
+
+        System.out.println(employeeDao.readById(5));
 
         EmployeeDao employeeDao1 = new EmployeeDaoImpl();
-        employeeDao1.readAll().forEach(System.out::println);
+        List<Employee> employees = employeeDao1.readAll();
+        for (Employee employee1 : employees) {
+            System.out.println(employee1);
+        }
 
-        EmployeeDao employeeDao2 = new EmployeeDaoImpl();
-        employeeDao2.create(new Employee("Vitia", "First", "M", 50, 5));
+        Employee employee1 = new Employee(5, "Дарья", "Российская", "Ж", 27, 4);
+        employeeDao.update(employee1);
 
-        EmployeeDao employeeDao3 = new EmployeeDaoImpl();
-        employeeDao3.deleteById(14);
+        Employee employee2 = new Employee(21, "", "", "", 0, 0);
+        employeeDao.delete(employee2);
 
-        EmployeeDao employeeDao4 = new EmployeeDaoImpl();
-        employeeDao4.updateById("Vitiya", "Firstin", "M", 30, 5, 15);
     }
 }
 

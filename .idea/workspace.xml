@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="019bb251-6ac2-4bc1-b124-0d95b9765b2e" name="Changes" comment="PSQL HW-2">
+    <list default="true" id="019bb251-6ac2-4bc1-b124-0d95b9765b2e" name="Changes" comment="PSQL">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/HibernateSessionFactoryUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/EmployeeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/EmployeeDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/ConnectionManager.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="psql-1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676382972786</updated>
       <workItem from="1676382975099" duration="11155000" />
-      <workItem from="1676460357395" duration="37105000" />
+      <workItem from="1676460357395" duration="51643000" />
     </task>
     <task id="LOCAL-00001" summary="Have begun">
       <created>1676384921265</created>
@@ -125,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676555839469</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="PSQL">
+      <created>1676643511498</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676643511498</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +160,7 @@
     <MESSAGE value="Have begun" />
     <MESSAGE value="PSQL HW-1" />
     <MESSAGE value="PSQL HW-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="PSQL HW-2" />
+    <MESSAGE value="PSQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="PSQL" />
   </component>
 </project>
